@@ -6,4 +6,4 @@ export const client = new MongoClient(connectionString, {
   useUnifiedTopology: true,
 });
 
-export const db = client.db("practice-mongo");
+export const db = client.db("jsonTokenTest");
